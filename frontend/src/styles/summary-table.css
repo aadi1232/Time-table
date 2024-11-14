@@ -1,0 +1,40 @@
+/* src/styles/summary-table.css */
+.summary-table {
+  width: 100%;
+  max-width: 800px;
+  margin: 2rem auto;
+  border-collapse: collapse;
+  background-color: #1e1e2f; /* Dark background for table */
+  color: #c9d1e8; /* Light text color for readability */
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+}
+
+.summary-table th, .summary-table td {
+  padding: 1rem;
+  text-align: left;
+  border: 1px solid rgba(255, 255, 255, 0.1); /* Subtle border */
+  transition: background-color 0.3s ease;
+}
+
+.summary-table th {
+  background-color: #5865f2; /* Deep space blue for headers */
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.summary-table tr:nth-child(even) {
+  background-color: #2a2d42; /* Slightly lighter row color */
+}
+
+.summary-table td:hover {
+  background-color: #3b3c70; /* Soft glow effect on hover */
+  color: #ffffff;
+}
+
+.summary-table th:hover {
+  background-color: #4a57c3; /* Darker shade on hover for headers */
+}

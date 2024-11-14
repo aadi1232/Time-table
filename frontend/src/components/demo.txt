@@ -1,0 +1,170 @@
+[
+  {
+    "year": "1",
+    "section": "1",
+    "faculty": "Dr. Narendra Singh Yadav",
+    "subject": "Discrete Structures and Matrix Algebra",
+    "credits": 4
+  },
+  {
+    "year": "1",
+    "section": "2",
+    "faculty": "Dr. Mainak Thakur",
+    "subject": "Discrete Structures and Matrix Algebra",
+    "credits": 4
+  },
+  {
+    "year": "1",
+    "section": "3",
+    "faculty": "Dr. Mainak Thakur",
+    "subject": "Discrete Structures and Matrix Algebra",
+    "credits": 4
+  },
+  {
+    "year": "1",
+    "section": "4",
+    "faculty": "Dr. Narendra Singh Yadav",
+    "subject": "Discrete Structures and Matrix Algebra",
+    "credits": 4
+  },
+  {
+    "year": "1",
+    "section": "1",
+    "faculty": "Dr. Raja Vara Prasad",
+    "subject": "Digital Logic Design",
+    "credits": 4
+  },
+  {
+    "year": "1",
+    "section": "2",
+    "faculty": "Dr. Ramesh Kumar",
+    "subject": "Digital Logic Design",
+    "credits": 4
+  },
+  {
+    "year": "1",
+    "section": "3",
+    "faculty": "Dr. Achintya Sarkar",
+    "subject": "Digital Logic Design",
+    "credits": 4
+  },
+  {
+    "year": "1",
+    "section": "4",
+    "faculty": "Dr. Paul Braineard",
+    "subject": "Digital Logic Design",
+    "credits": 4
+  },
+  {
+    "year": "2",
+    "section": "1",
+    "faculty": "Dr. Priyambada Subudhi",
+    "subject": "Object Oriented Programming",
+    "credits": 4
+  },
+  {
+    "year": "4",
+    "section": "2",
+    "faculty": "Dr. Sivaprasad K",
+    "subject": "Digital System Design",
+    "credits": 4
+  },
+  {
+    "year": "1",
+    "section": "1",
+    "faculty": "Dr. Viswanath P",
+    "subject": "Computer Programming",
+    "credits": 3
+  },
+  {
+    "year": "1",
+    "section": "2",
+    "faculty": "Dr. Odelu Vanga",
+    "subject": "Computer Programming",
+    "credits": 3
+  },
+  {
+    "year": "1",
+    "section": "3",
+    "faculty": "Dr. Santosh A",
+    "subject": "Computer Programming",
+    "credits": 3
+  },
+  {
+    "year": "1",
+    "section": "4",
+    "faculty": "Dr. Neha Agarwal",
+    "subject": "Computer Programming",
+    "credits": 3
+  },
+  {
+    "year": "1",
+    "section": "1",
+    "faculty": "Dr. Lokendra Chauhan",
+    "subject": "Overview of Computers Workshop",
+    "credits": 3
+  },
+  {
+    "year": "1",
+    "section": "2",
+    "faculty": "Dr. Priyanka Dwivedi",
+    "subject": "Overview of Computers Workshop",
+    "credits": 3
+  },
+  {
+    "year": "1",
+    "section": "3",
+    "faculty": "Dr. Rajeev Kumar",
+    "subject": "Overview of Computers Workshop",
+    "credits": 3
+  },
+  {
+    "year": "1",
+    "section": "4",
+    "faculty": "Dr. Rajeev Kumar",
+    "subject": "Overview of Computers Workshop",
+    "credits": 3
+  },
+  {
+    "year": "2",
+    "section": "2",
+    "faculty": "Dr. Pavan Kumar BN",
+    "subject": "Machine Learning",
+    "credits": 3
+  },
+  {
+    "year": "3",
+    "section": "1",
+    "faculty": "Dr. Mallikarjuna Reddy",
+    "subject": "Blockchain Technologies",
+    "credits": 3
+  },
+  {
+    "year": "3",
+    "section": "2",
+    "faculty": "Dr. Mrinmoy Ghorai",
+    "subject": "Computer Vision",
+    "credits": 3
+  },
+  {
+    "year": "4",
+    "section": "1",
+    "faculty": "Dr. Abhishek Hazara",
+    "subject": "Internet of Things",
+    "credits": 3
+  },
+  {
+    "year": "4",
+    "section": "2",
+    "faculty": "Dr. Kartick Sutradhar",
+    "subject": "Fundamentals of Quantum Computing",
+    "credits": 3
+  },
+  {
+    "year": "4",
+    "section": "1",
+    "faculty": "Dr. Odelu Vanga",
+    "subject": "Cryptography",
+    "credits": 3
+  }
+]

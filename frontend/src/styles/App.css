@@ -1,0 +1,65 @@
+/* src/styles/App.css */
+.app {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: #1b1b2f; /* Dark space background */
+  color: #e0e0e0; /* Light text color */
+}
+
+.error-message {
+  color: #ff4f5a; /* Bright red for errors */
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 1.1rem;
+  text-shadow: 0 0 5px rgba(255, 79, 90, 0.6); /* Soft glow */
+}
+
+.summary-table, .timetable table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 16px;
+  background-color: #2a2d42; /* Dark background for tables */
+  color: #c9d1e8; /* Light text color for readability */
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+}
+
+.summary-table th, .summary-table td, .timetable th, .timetable td {
+  border: 1px solid rgba(255, 255, 255, 0.1); /* Subtle border */
+  padding: 12px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.summary-table th, .timetable th {
+  background-color: #5865f2; /* Deep space blue */
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.summary-table th:hover, .timetable th:hover {
+  background-color: #4a57c3; /* Darker on hover */
+}
+
+.summary-table td:hover, .timetable td:hover {
+  background-color: #3b3c70; /* Glow effect on hover */
+  color: #ffffff;
+}
+
+.faculty-summary {
+  margin-top: 40px;
+  text-align: left;
+  color: #b1b3d9; /* Light purple text */
+}
+
+.faculty-summary h2 {
+  font-size: 1.5rem;
+  color: #a0a7d7; /* Highlighted color */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Light bottom border */
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+}

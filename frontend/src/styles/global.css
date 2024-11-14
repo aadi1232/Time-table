@@ -1,0 +1,47 @@
+/* src/styles/global.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1a1a2e; /* Dark space background */
+  color: #e0e0e0; /* Light text for readability */
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  color: #a0a7d7; /* Light blue/purple color for headers */
+  text-align: center;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 10px rgba(160, 167, 215, 0.5); /* Soft glow */
+}
+
+button {
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0.5rem 1.2rem;
+  margin-top: 1rem;
+  color: #ffffff;
+  background-color: #5865f2; /* Neon-like blue */
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(88, 101, 242, 0.4); /* Soft shadow for depth */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  background-color: #4a57c3; /* Darker blue on hover */
+  box-shadow: 0 6px 12px rgba(88, 101, 242, 0.6); /* Brighter glow */
+}
+
+button:active {
+  background-color: #3c49a5; /* Darkest blue on click */
+}
+
+a {
+  color: #8f9ff2; /* Light blue for links */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ffffff; /* White on hover */
+}

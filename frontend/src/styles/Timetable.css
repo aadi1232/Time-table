@@ -1,0 +1,79 @@
+/* src/styles/Timetable.css */
+.timetable {
+  max-width: 1000px;
+  margin: 2rem auto;
+  overflow-x: auto;
+  background-color: #1a1a2e; /* Dark space background */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7); /* Subtle shadow */
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.timetable table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+.timetable th,
+.timetable td {
+  padding: 1rem;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Light border */
+}
+
+.timetable th {
+  background-color: #24244a; /* Deep blue/purple for header */
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+
+.timetable tr:nth-child(even) {
+  background-color: #2b2d52; /* Slightly lighter shade for alternating rows */
+}
+
+.timetable td:hover {
+  background-color: #3b3c70; /* Glow effect on hover */
+  color: #e1e1e1;
+}
+
+.timetable .header {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #a0a7d7; /* Light purple/blue */
+  text-align: center;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.break,
+.lunch-break {
+  background-color: #33334d; /* Dark color for breaks */
+  text-align: center;
+  font-weight: bold;
+  color: #b1b3d9;
+  font-style: italic;
+}
+
+.break td,
+.lunch-break td {
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.timetable td.break, .timetable td.lunch-break {
+  color: #c1c3ff;
+  font-weight: bold;
+}
+
+/* Optional glow animation for headers */
+@keyframes glow {
+  0% { box-shadow: 0 0 5px #f0f, 0 0 10px #f0f, 0 0 15px #f0f; }
+  100% { box-shadow: 0 0 15px #f0f, 0 0 25px #f0f, 0 0 35px #f0f; }
+}
+
+.timetable th {
+  animation: glow 1.5s infinite alternate; /* Glowing effect */
+}

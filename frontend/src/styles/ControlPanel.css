@@ -1,0 +1,58 @@
+/* src/styles/ControlPanel.css */
+.control-panel {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #1e1e2f; /* Dark space background */
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); /* Deep shadow for depth */
+  color: #e0e0e0; /* Light text for contrast */
+}
+
+.control-panel label {
+  display: block;
+  font-weight: bold;
+  margin: 1rem 0 0.5rem;
+  color: #a0a7d7; /* Light purple/blue text */
+  font-size: 1.1rem;
+}
+
+.control-panel input {
+  width: 100%;
+  padding: 0.6rem;
+  font-size: 1rem;
+  border: 1px solid #444466; /* Subtle border */
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  background-color: #2a2a40; /* Dark input background */
+  color: #c1c3ff; /* Light text color */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.control-panel input:focus {
+  border-color: #8f9ff2; /* Slight glow on focus */
+  box-shadow: 0 0 8px rgba(143, 159, 242, 0.5); /* Soft glow */
+}
+
+.control-panel button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #5865f2; /* Neon-like blue */
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(88, 101, 242, 0.3); /* Soft shadow */
+}
+
+.control-panel button:hover {
+  background-color: #4a57c3; /* Darker blue on hover */
+  box-shadow: 0 6px 12px rgba(88, 101, 242, 0.5); /* Brighter glow */
+}
+
+.control-panel button:active {
+  background-color: #3c49a5; /* Even darker on click */
+}

@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Timetable Auto-Fill",
+    "version": "1.0",
+    "description": "Auto-fill timetable data for faculty and subjects.",
+    "permissions": ["activeTab", "scripting"],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "host_permissions": ["<all_urls>"]
+  }
+  
