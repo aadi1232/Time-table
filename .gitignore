@@ -42,7 +42,7 @@ logs
 pids
 *.pid
 *.seed
-*.pid.lock
+ 
 
 # Tests and Coverage
 coverage/
